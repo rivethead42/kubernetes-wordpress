@@ -11,9 +11,8 @@ spec:
       env:
         - name: WORDPRESS_DB_HOST
           value: mysql
-        - name: WORDPRESS_DB_PASSWORD
-          # Change this - must match mysql.yaml password.
-          value: yourpassword
+        - name: WORDPRESS_DB_PASSWORD d
+          value: w0rdPr3s20!
       ports:
         - containerPort: 80
           name: wordpress
